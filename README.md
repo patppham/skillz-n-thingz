@@ -4,34 +4,34 @@ A consolidated repository of custom agentic skills, system prompts, and tool con
 
 ## Repository Structure
 
-The library is organized by operational capability categories:
+The library is organized by Software Development Lifecycle (SDLC) capability categories:
 
-### 1. [System & Environment Ops](./system-ops)
-Automated setups for cloud VPS deployments, secure Tailscale network tunnels, local port forwarding, and desktop/server control.
-- [vps](./system-ops/vps)
-- [hostinger](./system-ops/hostinger)
-- [local-pc](./system-ops/local-pc)
-- [local-model](./system-ops/local-model)
-- [computer-use](./system-ops/computer-use)
+### 1. [Planning & Design](./planning-and-design)
+Aesthetic styling pre-flight checks, screenshot-grounded UI pattern research, requirement specification planners, and data visualization design principles.
+- [plan](./planning-and-design/plan)
+- [init](./planning-and-design/init)
+- [designer](./planning-and-design/designer)
+- [design-taste-frontend](./planning-and-design/design-taste-frontend)
+- [lazyweb-design](./planning-and-design/lazyweb-design)
+- [tufte-viz](./planning-and-design/tufte-viz)
 
-### 2. [Browser & API Automation](./browser-and-api-automation)
-Scripted browser testing pipelines, user interface regression audits, Google Workspace API integrations, and health metric sync.
-- [playwright-cli](./browser-and-api-automation/playwright-cli)
-- [ui-tester](./browser-and-api-automation/ui-tester)
-- [ghealth](./browser-and-api-automation/ghealth)
-- [gog](./browser-and-api-automation/gog)
+### 2. [Development & Review](./development-and-review)
+Context-preserving session logging, pre-push verification checks, multi-language code review guidelines, Google Workspace tools, and health API sync.
+- [historian](./development-and-review/historian)
+- [push](./development-and-review/push)
+- [reviewer](./development-and-review/reviewer)
+- [gog](./development-and-review/gog)
+- [ghealth](./development-and-review/ghealth)
 
-### 3. [Workspace & State Memory](./workspace-and-state-memory)
-Context-preserving system instructions, requirement specification planners, automated pre-push verification gates, and static code review heuristics.
-- [historian](./workspace-and-state-memory/historian)
-- [plan](./workspace-and-state-memory/plan)
-- [push](./workspace-and-state-memory/push)
-- [init](./workspace-and-state-memory/init)
-- [reviewer](./workspace-and-state-memory/reviewer)
+### 3. [Testing & QA](./testing-and-qa)
+Headless browser testing pipelines, user interface visual regression audits, and background desktop OS GUI automation.
+- [playwright-cli](./testing-and-qa/playwright-cli)
+- [ui-tester](./testing-and-qa/ui-tester)
+- [computer-use](./testing-and-qa/computer-use)
 
-### 4. [Product Design & Visuals](./product-design-and-visuals)
-Aesthetic styling pre-flight checks, screenshot-grounded UI pattern research, and high data-density visualization design principles.
-- [designer](./product-design-and-visuals/designer)
-- [design-taste-frontend](./product-design-and-visuals/design-taste-frontend)
-- [lazyweb-design](./product-design-and-visuals/lazyweb-design)
-- [tufte-viz](./product-design-and-visuals/tufte-viz)
+### 4. [Infrastructure & Ops](./infrastructure-and-ops)
+Automated cloud VPS deployments, Hostinger domain/DNS configurations, remote headless PC connections, and local LLM fine-tuning/serving.
+- [vps](./infrastructure-and-ops/vps)
+- [hostinger](./infrastructure-and-ops/hostinger)
+- [local-pc](./infrastructure-and-ops/local-pc)
+- [local-model](./infrastructure-and-ops/local-model)
