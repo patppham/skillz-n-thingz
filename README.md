@@ -4,7 +4,7 @@ A consolidated repository of custom agentic skills, system prompts, and tool con
 
 ## Repository Structure
 
-The library is organized by Software Development Lifecycle (SDLC) capability categories:
+The library is organized by operational capability categories:
 
 ### 1. [Planning & Design](./planning-and-design)
 Aesthetic styling pre-flight checks, screenshot-grounded UI pattern research, requirement specification planners, and data visualization design principles.
@@ -16,12 +16,10 @@ Aesthetic styling pre-flight checks, screenshot-grounded UI pattern research, re
 - [tufte-viz](./planning-and-design/tufte-viz)
 
 ### 2. [Development & Review](./development-and-review)
-Context-preserving session logging, pre-push verification checks, multi-language code review guidelines, Google Workspace tools, and health API sync.
+Context-preserving session logging, pre-push verification checks, and multi-language code review guidelines.
 - [historian](./development-and-review/historian)
 - [push](./development-and-review/push)
 - [reviewer](./development-and-review/reviewer)
-- [gog](./development-and-review/gog)
-- [ghealth](./development-and-review/ghealth)
 
 ### 3. [Testing & QA](./testing-and-qa)
 Headless browser testing pipelines, user interface visual regression audits, and background desktop OS GUI automation.
@@ -35,3 +33,8 @@ Automated cloud VPS deployments, Hostinger domain/DNS configurations, remote hea
 - [hostinger](./infrastructure-and-ops/hostinger)
 - [local-pc](./infrastructure-and-ops/local-pc)
 - [local-model](./infrastructure-and-ops/local-model)
+
+### 5. [Household Ops](./household-ops)
+Google Workspace productivity automation and personal biometrics/health API synchronization.
+- [gog](./household-ops/gog)
+- [ghealth](./household-ops/ghealth)
