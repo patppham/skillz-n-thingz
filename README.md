@@ -7,16 +7,14 @@ A consolidated repository of custom agentic skills, system prompts, and tool con
 The library is organized by operational capability categories:
 
 ### 1. [Planning & Design](./planning-and-design)
-Aesthetic styling pre-flight checks, screenshot-grounded UI pattern research, requirement specification planners, marketing screenshot canvas editor, and canonical Edward Tufte visual display of quantitative information plugins (orchestration, assessment, rendering).
+Aesthetic styling pre-flight checks, screenshot-grounded UI pattern research, requirement specification planners, marketing screenshot canvas editor, and canonical Edward Tufte visualization guidelines.
 - [plan](./planning-and-design/plan)
 - [init](./planning-and-design/init)
 - [designer](./planning-and-design/designer)
 - [design-taste-frontend](./planning-and-design/design-taste-frontend)
 - [lazyweb-design](./planning-and-design/lazyweb-design)
 - [app-store-screenshots](./planning-and-design/app-store-screenshots)
-- [orchestrate-tufte-vdqi](./planning-and-design/orchestrate-tufte-vdqi)
-- [assess-graphical-excellence](./planning-and-design/assess-graphical-excellence)
-- [render-tufte-chart](./planning-and-design/render-tufte-chart)
+- [tufte](./planning-and-design/tufte)
 
 ### 2. [Development & Review](./development-and-review)
 Context-preserving session logging, pre-push verification checks, and multi-language code review guidelines.
