@@ -1,0 +1,328 @@
+skills:
+  - id: ghealth
+    public_name: ghealth
+    workflow_area: household-admin
+    daily_use_domain: household
+    authorship: adapted
+    status: redact
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - ghealth
+    summary: Query and work with Google Health data and related account workflows.
+
+  - id: pm
+    public_name: pm
+    workflow_area: planning
+    daily_use_domain: developer
+    authorship: mine
+    status: publish
+    harnesses:
+      - opencode
+    source_names:
+      - pm
+    summary: Turn raw feature ideas into scoped work aligned with roadmap constraints.
+
+  - id: planning-architect
+    public_name: planning-architect
+    workflow_area: planning
+    daily_use_domain: developer
+    authorship: mine
+    status: publish
+    harnesses:
+      - antigravity
+    source_names:
+      - plan
+    summary: Analyze requirements, shape the implementation approach, and draft execution plans.
+
+  - id: architect
+    public_name: architect
+    workflow_area: planning
+    daily_use_domain: developer
+    authorship: mine
+    status: publish
+    harnesses:
+      - opencode
+    source_names:
+      - architect
+    summary: Design system implementations while staying inside PM-defined scope boundaries.
+
+  - id: init
+    public_name: init
+    workflow_area: planning
+    daily_use_domain: shared
+    authorship: adapted
+    status: publish
+    harnesses:
+      - codex
+      - antigravity
+    source_names:
+      - init
+    summary: Create or refresh repository guidance so future sessions can ramp up quickly.
+
+  - id: applied-ds
+    public_name: applied-ds
+    workflow_area: implementation
+    daily_use_domain: developer
+    authorship: mine
+    status: publish
+    harnesses:
+      - opencode
+    source_names:
+      - applied-ds
+    summary: Support algorithm design, analysis, and mathematically grounded implementation work.
+
+  - id: ship-push
+    public_name: ship-push
+    workflow_area: implementation
+    daily_use_domain: developer
+    authorship: mine
+    status: redact
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - push
+    summary: Finalize changes, preserve project memory, and ship code safely.
+
+  - id: reviewer
+    public_name: reviewer
+    workflow_area: implementation
+    daily_use_domain: developer
+    authorship: adapted
+    status: redact
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - reviewer
+    summary: Review code with framework- and language-specific guidance plus reusable checklists.
+
+  - id: historian
+    public_name: historian
+    workflow_area: memory-and-handoff
+    daily_use_domain: shared
+    authorship: mine
+    status: publish
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - historian
+    summary: Maintain project memory, logs, and historical context for future sessions.
+
+  - id: designer
+    public_name: designer
+    workflow_area: design-research
+    daily_use_domain: developer
+    authorship: mine
+    status: publish
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - designer
+    summary: Provide strong product design direction and grounded UI exploration.
+
+  - id: frontend-taste
+    public_name: frontend-taste
+    workflow_area: design-research
+    daily_use_domain: developer
+    authorship: mine
+    status: review
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - taste-skill
+    summary: Push frontends away from generic AI-looking output toward stronger visual taste.
+
+  - id: lazyweb-design
+    public_name: lazyweb-design
+    workflow_area: design-research
+    daily_use_domain: developer
+    authorship: external
+    status: publish
+    harnesses:
+      - codex
+      - opencode
+      - antigravity
+    source_names:
+      - lazyweb-design
+    summary: Use Lazyweb screenshot search and comparison to ground design decisions in real product examples.
+
+  - id: lazyweb-design-brainstorm
+    public_name: lazyweb-design-brainstorm
+    workflow_area: design-research
+    daily_use_domain: developer
+    authorship: external
+    status: publish
+    harnesses:
+      - codex
+    source_names:
+      - lazyweb-design-brainstorm
+    summary: Explore surprising cross-domain references to generate less obvious design directions.
+
+  - id: lazyweb-design-improve
+    public_name: lazyweb-design-improve
+    workflow_area: design-research
+    daily_use_domain: developer
+    authorship: external
+    status: publish
+    harnesses:
+      - codex
+    source_names:
+      - lazyweb-design-improve
+    summary: Evaluate an existing design against real references and suggest targeted improvements.
+
+  - id: lazyweb-design-research
+    public_name: lazyweb-design-research
+    workflow_area: design-research
+    daily_use_domain: developer
+    authorship: external
+    status: publish
+    harnesses:
+      - codex
+    source_names:
+      - lazyweb-design-research
+    summary: Conduct deeper design research and competitive pattern analysis using screenshot references.
+
+  - id: lazyweb-quick-references
+    public_name: lazyweb-quick-references
+    workflow_area: design-research
+    daily_use_domain: developer
+    authorship: external
+    status: publish
+    harnesses:
+      - codex
+    source_names:
+      - lazyweb-quick-references
+    summary: Quickly pull example screens and UI references without a full research workflow.
+
+  - id: playwright-cli
+    public_name: playwright-cli
+    workflow_area: testing-and-qa
+    daily_use_domain: developer
+    authorship: external
+    status: review
+    harnesses:
+      - codex
+      - opencode
+      - antigravity
+    source_names:
+      - playwright-cli
+    summary: Automate browser interactions, test web pages, and inspect UI behavior with Playwright.
+
+  - id: ui-tester
+    public_name: ui-tester
+    workflow_area: testing-and-qa
+    daily_use_domain: developer
+    authorship: mine
+    status: publish
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - ui-tester
+    summary: Perform browser UI QA focused on layout, CSS issues, accessibility, and user experience.
+
+  - id: computer-use
+    public_name: computer-use
+    workflow_area: testing-and-qa
+    daily_use_domain: developer
+    authorship: adapted
+    status: review
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - computer-use
+    summary: Operate the desktop directly for flows that need app-level automation instead of browser-only testing.
+
+  - id: dogfood
+    public_name: webapp-exploratory-qa
+    workflow_area: testing-and-qa
+    daily_use_domain: developer
+    authorship: adapted
+    status: review
+    harnesses:
+      - hermes
+    source_names:
+      - dogfood
+    summary: Explore web applications, gather evidence, and produce bug-oriented QA findings.
+
+  - id: local-model-ops
+    public_name: local-model-ops
+    workflow_area: infrastructure
+    daily_use_domain: developer
+    authorship: mine
+    status: redact
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - local-model
+    summary: Manage model installation, benchmarking, and local inference operations on dedicated hardware.
+
+  - id: ssh-headless-box
+    public_name: ssh-headless-box
+    workflow_area: infrastructure
+    daily_use_domain: developer
+    authorship: mine
+    status: redact
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - ko8e
+    summary: Connect to and manage a named headless machine used for development tasks.
+
+  - id: ssh-vps-admin
+    public_name: ssh-vps-admin
+    workflow_area: infrastructure
+    daily_use_domain: developer
+    authorship: mine
+    status: redact
+    harnesses:
+      - opencode
+      - antigravity
+    source_names:
+      - vps
+    summary: Access and administer a VPS used for hosted workloads.
+
+  - id: hosting-provider-admin
+    public_name: hosting-provider-admin
+    workflow_area: infrastructure
+    daily_use_domain: developer
+    authorship: mine
+    status: redact
+    harnesses:
+      - antigravity
+    source_names:
+      - hostinger
+    summary: Manage hosting-provider operations such as DNS, domains, and account-level admin tasks.
+
+  - id: google-workspace-cli
+    public_name: google-workspace-cli
+    workflow_area: infrastructure
+    daily_use_domain: shared
+    authorship: adapted
+    status: redact
+    harnesses:
+      - antigravity
+    source_names:
+      - gog
+    summary: Use a Google-focused CLI for account and productivity workflows.
+
+  - id: yuanbao-groups
+    public_name: yuanbao-groups
+    workflow_area: communication
+    daily_use_domain: household
+    authorship: adapted
+    status: review
+    harnesses:
+      - hermes
+    source_names:
+      - yuanbao
+    summary: Work with Yuanbao group membership and messaging workflows.
