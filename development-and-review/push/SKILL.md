@@ -2,11 +2,14 @@
 name: push
 description: Safely finalize, document, and push code. Respects previously run checks to avoid redundancy, updates project memory, commits, pushes, and monitors deployments.
 ---
-
 # Push Skill Instructions
 
 You have been invoked to finalize the current work, document it, and push it to the remote repository.
 Follow these steps to ensure code quality and project memory are maintained.
+
+## Codex safety boundary
+
+Only stage, commit, push, or monitor a deployment when the user explicitly requests that action. Otherwise, prepare the changes and report the remaining release steps without performing them.
 
 ## 1. Deduplication & Pre-flight Checks
 Do not duplicate work! Before running any linters, formatters, tests, or builds:
@@ -15,7 +18,7 @@ Do not duplicate work! Before running any linters, formatters, tests, or builds:
 - If a build or test fails, attempt to fix it autonomously before proceeding. Stop and inform the user if you are stuck.
 
 ## 2. Project Memory & Documentation
-- Consult local project instructions (`GEMINI.md`, `CLAUDE.md`, etc.) to understand where documentation is stored.
+- Consult local project instructions (`AGENTS.md`, `CLAUDE.md`, etc.) to understand where documentation is stored.
 - If the project uses `HISTORY.md`, `CHANGELOG.md`, or `ROADMAP.md`, parse the uncommitted diffs (`git diff`) and update the relevant documents with a summary of the completed work.
 - Ensure any `task.md` or `implementation_plan.md` artifacts are marked as completed.
 

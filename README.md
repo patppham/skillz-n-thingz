@@ -2,9 +2,23 @@
 
 A consolidated repository of custom agentic skills, system prompts, and tool configurations. These modules are loaded dynamically across runtime environments to steer AI assistants, automate development operations, and maintain a consistent workspace.
 
-## Repository Structure
+## Recent Codex Workflows
+
+These portable skills capture workflows developed in day-to-day Codex use:
+
+- [ponytail](./development-and-review/ponytail): choose the smallest implementation that meets the request, reuse native tools, and verify the result.
+- [ponytail-review](./development-and-review/ponytail-review): review a diff for unnecessary complexity and name concrete replacements.
+- [ponytail-audit](./development-and-review/ponytail-audit): rank repository-wide simplification opportunities without applying changes.
+- [orchestrate](./development-and-review/orchestrate): delegate substantial independent work with explicit ownership; keep integration and verification with the primary agent. Adapt model choices to your available runtime.
+- [init](./planning-and-design/init): create compact, evidence-based AGENTS.md guidance from the repository's actual commands and conventions.
+- [push](./development-and-review/push): reuse completed checks, document changes, and commit or deploy only when explicitly requested.
+
+Copy a selected skill folder into your Codex skills directory and invoke it by name. Review instructions before use; some older integration skills require tools or credentials specific to your environment. This repository does not currently declare a blanket license; check individual files for their terms.
+
 
 The library is organized by operational capability categories:
+
+## Repository Structure
 
 ### 1. [Planning & Design](./planning-and-design)
 Aesthetic styling pre-flight checks, screenshot-grounded UI pattern research, requirement specification planners, marketing screenshot canvas editor, and canonical Edward Tufte visualization guidelines.
@@ -39,3 +53,4 @@ Automated cloud VPS deployments, Hostinger domain/DNS configurations, remote hea
 Google Workspace productivity automation and personal biometrics/health API synchronization.
 - [gog](./household-ops/gog)
 - [ghealth](./household-ops/ghealth)
+- [hermes-chat](./household-ops/hermes-chat)
